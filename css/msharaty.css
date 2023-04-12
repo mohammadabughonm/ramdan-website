@@ -1,0 +1,36 @@
+.msharatyin-ramadan {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+  }
+  
+  .msharatyin-ramadan h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .msharatyin-ramadan p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  .msharatyin-ramadan ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .msharatyin-ramadan li {
+    font-size: 16px;
+    line-height: 1.5;
+    padding: 5px 0;
+  }
+  
+  .msharatyin-ramadan li:before {
+    content: "• ";
+    color: #dc3545;
+  }
+  

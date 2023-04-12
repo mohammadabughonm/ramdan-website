@@ -1,0 +1,154 @@
+footer {
+    background-color: #efe8e8;
+    height: 30%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-contant{
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+
+}
+.footer-nav{
+    display: flex;
+    justify-content: space-around;
+    gap: 15px;
+
+}
+
+li {
+    list-style: none;
+}
+
+.footer-contant {
+    padding: 2%;
+}
+
+.footer-nav {
+    padding: 2% 20%;
+}
+
+.footer-email {
+    padding: 2% 30%;
+}
+
+#email {
+    height: 40px;
+    width: 200px;
+}
+
+#subject {
+    height: 250px;
+    width: 200px;
+}
+
+.fa-envelope {
+    color: rgb(243, 80, 50);
+}
+
+@media (max-width: 1285px) {
+    footer {
+        flex-direction: column;
+    }
+
+    .footer-contant {
+        padding: 2% 20%;
+    }
+
+    .footer-nav {
+        padding: 2% 20%;
+    }
+
+    .footer-email {
+        padding: 2% 20%;
+    }
+
+    section {
+        min-height: auto;
+        min-width: auto;
+    }
+
+    .img2 {
+        width: max-content;
+        height: max-content;
+    }
+}
+
+@media (max-width: 600px) {
+    footer {
+        flex-direction: column;
+    }
+
+    .footer-contant {
+        padding: 2% 10%;
+    }
+
+    .footer-nav {
+        padding: 2% 10%;
+    }
+
+    .footer-email {
+        padding: 2% 10%;
+    }
+
+    section {
+        min-height: auto;
+        min-width: auto;
+    }
+
+    .main {
+        height: 100%;
+        width: 40%;
+    }
+}
+
+@media (max-width: 300px) {
+    footer {
+        flex-direction: column;
+    }
+
+    .footer-contant {
+        padding: 2% 5%;
+    }
+
+    .footer-nav {
+        padding: 2% 5%;
+    }
+
+    .footer-email {
+        padding: 2% 5%;
+    }
+
+    section {
+        min-height: auto;
+        min-width: auto;
+    }
+
+    .main {
+        height: 100%;
+        width: 40%;
+    }
+}
+
+.fa-linkedin {
+    color: blue;
+}
+.fa-github{
+    color: black;
+}
+.fa-facebook{
+    color: #425fca;
+}
+.fa-twitter{
+    color: #1da1f2;
+}
+.fa-instagram{
+color: #eb4b62;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}

@@ -1,0 +1,92 @@
+body{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* adkar container css */
+.adkar_container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+}
+.adkar{
+    width: 350px;
+    height: 350px;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: aliceblue;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+}
+.adkar_container .title{
+    width: 100%;
+    text-align: center;
+}
+.electronic-masbaha{
+    width: 100px;
+    height: 130px;
+}
+/* hover for adkar cards */
+.adkar1:hover, .adkar2:hover, .adkar3:hover, .adkar4:hover
+, .adkar5:hover, .adkar6:hover, .adkar7:hover, .adkar8:hover
+{
+    color: #c99b0e;
+    box-shadow: 2px 2px 30px black;
+}
+
+/* quran container css */
+.quran_container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+}
+.quran_container .title{
+    width: 100%;
+    text-align: center;
+}
+.left{
+    width: 300px;
+}
+.left img{
+    width: 300px;
+}
+.right{
+    width: 600px;
+}
+.quran-title{
+    color: rgba(153, 156, 3, 0.71);
+}
+.button-save{
+    background-color: #c99b0e;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    height: 30px;
+    width: 50px;
+}
+/* question container css */
+.questions-container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 10px;
+}
+.questions-container .title{
+    text-align: center;
+}
+.cards{
+    padding: 15px;
+    box-shadow:  2px 2px 30px black;
+    text-align: right;
+    border-radius:10px ;
+}
